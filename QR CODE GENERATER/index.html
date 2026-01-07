@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>QR Code Generator</title>
+</head>
+
+<body class="w-full h-screen bg-[url('https://i.pinimg.com/736x/aa/36/d8/aa36d86fc2a53f2dcde6213c7d17035e.jpg')] bg-cover bg-center">
+
+    <div class="w-full h-full flex items-center justify-center px-4">
+        <div
+            class="w-full max-w-xs md:max-w-md bg-white/60 py-6 px-4 rounded-2xl backdrop-blur-md flex flex-col items-center gap-4">
+
+            <h1 class="h1 text-black text-center font-bold text-2xl md:text-3xl uppercase">
+                Generate Your QR Code
+            </h1>
+
+            <img
+                class="img hidden w-36 h-36 md:w-44 md:h-44"
+                src="https://i.pinimg.com/1200x/d3/a4/21/d3a42160f600dddd066a842e55b0731f.jpg"
+                alt="QR Code">
+
+            <input
+                class="inp w-full bg-white px-4 py-3 rounded-xl outline-none"
+                type="text"
+                placeholder="Enter Your URL">
+
+            <button
+                class="btn w-full bg-blue-600 text-white rounded-2xl py-3 hover:bg-blue-700 transition">
+                Click to Generate QR Code
+            </button>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
